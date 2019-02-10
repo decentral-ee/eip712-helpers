@@ -1,6 +1,6 @@
 {
   "name": "eip712-helpers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helpers to implement EIP-712",
   "main": "eip712.js",
   "directories": {

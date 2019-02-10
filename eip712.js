@@ -80,7 +80,7 @@ module.exports = {
             } else {
                 let send = web3.currentProvider.sendAsync;
                 if (!send) send = web3.currentProvider.send;
-                send({
+                send.bind(web3.currentProvider)({
                     jsonrpc: "2.0",
                     method: "eth_signTypedData",
                     params: [from, data],
