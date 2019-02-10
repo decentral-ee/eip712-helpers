@@ -1,0 +1,17 @@
+{
+  "name": "eip712-helpers",
+  "version": "1.0.0",
+  "description": "Helpers to implement EIP-712",
+  "main": "eip712.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "author": "Miao ZhiCheng <miao@decentral.ee>",
+  "license": "MIT",
+  "devDependencies": {
+    "truffle": "^5.0.3"
+  }
+}
