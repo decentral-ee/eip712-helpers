@@ -1,6 +1,6 @@
 {
   "name": "eip712-helpers",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Helpers to implement EIP-712",
   "main": "eip712.js",
   "directories": {
@@ -10,6 +10,10 @@
     "test": "truffle test"
   },
   "author": "Miao ZhiCheng <miao@decentral.ee>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/decentral-ee/eip712-helpers.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "truffle": "^5.0.3"
